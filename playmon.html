@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="./js/functions.js"></script>
+    <script src="./js/playmon.js"></script>
+    <link rel="stylesheet" href="./style.css">
+    <style>@import url('https://fonts.googleapis.com/css2?family=Bowlby+One+SC&display=swap');
+    </style>
+    <title>ElementMonster</title>
+</head>
+<body>
+    <section id="select-monster">
+        <h1 class="title">ELEMENT MONSTERS</h1>
+
+        <h2 class="subtitle">choice your monster:</h2>
+        
+        <div class="card">
+
+        <label class="mokepon-card" for="cafre">Cafre</label>
+        <input type="radio" name="monster" id="cafre">
+        
+        <label class="mokepon-card" for="dogter">Dogter</label>
+        <input type="radio" name="monster" id="dogter">
+        
+        <label class="mokepon-card" for="parrath">Parrath</label>
+        <input type="radio" name="monster" id="parrath">
+
+        <label class="mokepon-card" for="fiter">fiter</label>
+        <input type="radio" name="monster" id="fiter">
+
+        <label class="mokepon-card" for="earrel">Earrel</label>
+        <input type="radio" name="monster" id="earrel">
+
+        <label class="mokepon-card" for="terra">Terra</label>
+        <input type="radio" name="monster" id="terra">
+        </div>
+        <button id="monster-button">Select</button>
+    </section>
+
+    <section id="select-attack">
+        <h1 class="title">PLAYMON! 🔥💦🌵</h1>
+
+        <h2>Choice your attack</h2>
+
+        <p>Your monster <span id="player-monster"></span> has <span id="player-lives">3</span> lives</p>
+        <p>The enemy's monster <span id="enemy-monster"></span> has <span id="enemy-lives">3</span> lives</p>
+        
+        <p>
+            <button id="fire-btn">Fire 🔥</button>
+            <button id="water-btn">Water 💦</button>
+            <button id="earth-btn">Earth 🌵</button>
+        </p>
+    </section>
+
+    <section id="messages"></section>
+
+    <p><button id="restart-btn">Restart</button></p>
+    
+</body>
+</html>

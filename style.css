@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Bowlby+One+SC&display=swap');
+
+body{
+    font-family:'Bowlby One SC', cursive;
+    background-color: #36D1C4;
+}
+
+#select-monster{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center
+}
+.title {
+    color: #FFF2BE;
+    font-size: 90px;
+}
+
+.subtitle{
+    color: #FFF2BE;
+    font-size: 45px;
+}
+
+.card{
+    display: flex;
+    gap: 10px;
+}
+.mokepon-card{
+    width: 100px;
+    height: 100px;
+    background: salmon;
+    padding: 10px;
+    box-sizing: border-box;
+    margin: 10px;
+    border: 2px solid transparent;
+}
+
+input{
+    display: none;
+}
